@@ -15,7 +15,7 @@ import java.time.Duration;
 public class ProductPurchaseTest extends BaseTest {
 
     @Test
-    public void productSearchAddToCartTest() throws InterruptedException {
+    public void productSearchAddToCartTest() {
 
         var driver = DriverFactory.getDriver();
 
